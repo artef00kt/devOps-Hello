@@ -18,7 +18,7 @@
     <mirrors>
         <mirror>
             <id>maven-central</id>
-            <mirror0f>external:http:*</mirror0f>
+            <mirrorOf>external:http:*</mirrorOf>
             <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
             <url>http://localhost:8081/repository/maven-central/</url>
             <blocked>true</blocked>
