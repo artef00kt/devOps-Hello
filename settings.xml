@@ -14,13 +14,13 @@
             <password>admin</password>
         </server>
     </servers>
-    
+
     <mirrors>
         <mirror>
             <id>maven-central</id>
             <mirror0f>external:http:*</mirror0f>
             <name>Pseudo repository to mirror external repositories initially using HTTP.</name>
-            <url>http://nexus:8081/repository/maven-central/</url>
+            <url>http://localhost:8081/repository/maven-central/</url>
             <blocked>true</blocked>
         </mirror>
     </mirrors>
