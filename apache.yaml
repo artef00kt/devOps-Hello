@@ -1,9 +1,5 @@
 - hosts: localhost
   tasks:
-    - name: login to docker hub
-      command: docker login -u {{ lookup('env', 'DOCKER_USERNAME') }} -p {{ lookup('env', 'DOCKER_PASSWORD') }}
-      no_log: true
-
     - name: create docker image
       command: docker build -t hello:latest .
 
